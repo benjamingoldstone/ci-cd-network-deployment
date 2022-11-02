@@ -1,0 +1,9 @@
+---
+kind: pipeline
+type: exec
+name: default
+
+steps:
+- name: Ansible - Add VLAN
+  commands:
+  - ansible-playbook -i inventory/spines.yaml sonic_add_vlan_httpapi.yaml 
