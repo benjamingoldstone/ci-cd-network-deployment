@@ -9,7 +9,7 @@
       dellemc.enterprise_sonic.sonic_api:
         url: data/openconfig-network-instance:network-instances/network-instance=Vlan100
         method: "PUT"
-        body: {"openconfig-network-instance:network-instance": [{"name": "Vlan100","config": {"name": "Vlan100"}}]}
+        body: {"openconfig-network-instance:network-instance": [{"name": "Vlan106","config": {"name": "Vlan106"}}]}
         status_code: 204
     - name: Perform GET operation to view VLAN network instance
       dellemc.enterprise_sonic.sonic_api:
