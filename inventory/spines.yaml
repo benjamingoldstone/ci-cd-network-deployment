@@ -1,5 +1,5 @@
-spine1 ansible_host=192.168.1.118
-spine2 ansible_host=192.168.1.119
+spine1 ansible_host=192.168.1.121
+spine2 ansible_host=192.168.1.122
 
 [spines]
 spine1
