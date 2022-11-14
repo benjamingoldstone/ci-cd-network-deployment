@@ -4,6 +4,6 @@ type: exec
 name: default
 
 steps:
-- name: Ansible - Add VLAN
+- name: Ansible - Create or update VXLAN / EVPN fabric
   commands:
-  - ansible-playbook -i inventory/spines.yaml sonic_add_vlan_httpapi.yaml 
+  - ansible-playbook -i inventory/hosts.yaml sonic_api_calls.yaml
